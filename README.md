@@ -11,7 +11,7 @@ The folder labelled 'figure' contains all scripts and data used to generate figu
 To run the 'tDCS.rep.safety' script you must first install R software and ensure that the 'AE master sheet' is saved on your computer's directory. The script will produce figures and can be used to create a variable detailing the associated statistics results. This variable (referred to as 'result' from now on) can list all outputs at once, or can be called on to detail specifc analyses using the commands: result$session, result$incidence, result$forest, and result$study. 
  
  Examples
- - Conducting the participant incidence analysis for the adverse event, 'headache', would entering the following into the R console:
+ - Conducting a participant incidence analysis for the adverse event, 'headache', one would enter the following into the R console:
 
 filename <- "C:/yourcomputersfilepath/AE master sheet.xlsx"
 
