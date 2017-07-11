@@ -34,9 +34,7 @@ level <- c(1,2)
 result <- tDCS.rep.safety(filename, AE.type, level)
 
  
-To view only session incidence results
-
-result$session
+To view only session incidence results: result$session
   
  Contributing
  - If you'd like to contribute your own data to this repository email stevan.nikolin@unsw.edu.au with the following information: Study citation, sample size, current intensity, electrode size (smallest if different), electrode montage, number of sessions, session duration, and a detailed list of adverse events.
