@@ -69,7 +69,8 @@
     
     ymin <- floor(exp(min(metareg.dat$yi))*10)/10
     ymax <- ceiling(max(exp(metareg.dat$yi))/10)*10
-    yabs <- max(c(abs(ymin),abs(ymax)))
+    yabs <- max(c(abs(log(ymin)),abs(log(ymax))))
+    yabs <- exp(yabs)
     
     dev.new()
     par(mar=c(5,5,1,2))
@@ -139,7 +140,8 @@
     
     ymin <- floor(exp(min(metareg.dat$yi))*10)/10
     ymax <- ceiling(max(exp(metareg.dat$yi))/10)*10
-    yabs <- max(c(abs(ymin),abs(ymax)))
+    yabs <- max(c(abs(log(ymin)),abs(log(ymax))))
+    yabs <- exp(yabs)
     
     dev.new()
     par(mar=c(5,5,1,2))
