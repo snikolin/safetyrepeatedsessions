@@ -14,19 +14,19 @@ To run the 'tDCS.rep.safety' script you must first install R software and ensure
  Examples
  - Conducting the participant incidence analysis for the adverse event, 'headache', would entering the following into the R console:
 
-filename <- "C:/yourcomputersfilepath/AE master sheet.xlsx"
-AE.type <- "Headache"
-level <- 2
-result <- tDCS.rep.safety(filename, AE.type, level)
+filename <- "C:/yourcomputersfilepath/AE master sheet.xlsx";
+AE.type <- "Headache";
+level <- 2;
+result <- tDCS.rep.safety(filename, AE.type, level);
  
  - Note that multiple levels, and AE types, can be analysed at once. For example, examining paraesthesia can be achieved by searching for the adverse events of 'itching','tingling', and 'burning'. This can be done for both participant and session incidence rates at the same time.
 
-filename <- "H:/yourcomputersfilepath/AE master sheet.xlsx"
-AE.type <- c("Itching","Tingling","Burning")
-level <- c(1,2)
-result <- tDCS.rep.safety(filename, AE.type, level)
+filename <- "H:/yourcomputersfilepath/AE master sheet.xlsx";
+AE.type <- c("Itching","Tingling","Burning");
+level <- c(1,2);
+result <- tDCS.rep.safety(filename, AE.type, level);
  
-To view only session incidence results
+To view only session incidence results;
 result$session
   
  Contributing
