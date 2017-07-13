@@ -36,7 +36,7 @@ result <- tDCS.rep.safety(filename, AE.type, level)
 To view only session incidence results: result$session
   
  Contributing
- - If you'd like to contribute your own data to this repository email stevan.nikolin@unsw.edu.au with the following information: your study citation details, sample size, current intensity, electrode size (smallest if different), electrode montage, number of sessions, session duration, and a detailed list of adverse events.
+ - If you'd like to contribute your own data to this repository email stevan.nikolin@unsw.edu.au or stevan.nikolin@gmail.com with the following information: your study citation details, sample size, current intensity, electrode size (smallest if different), electrode montage, number of sessions, session duration, and a detailed list of adverse events.
  
  License
  - This data is free to use for your own purposes 
